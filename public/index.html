@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="game" class="container">
+
+
+        <audio id="movesound" src="sounds/move2.mp3"></audio>
+        <div class="colorandcapture">
+
+            <div id=choose-color class="color-box">
+                <div>
+                    <p>Theme
+                    </p>
+                </div>
+
+                <div onclick="chooseColor(this)" id="red" class="box">
+                    <div class="dark"></div>
+                    <div class="light"></div>
+                </div>
+                <div onclick="chooseColor(this)" id="blue" class="box">
+                    <div class="dark"></div>
+                    <div class="light"></div>
+                </div>
+                <div onclick="chooseColor(this)" id="brown" class="box">
+                    <div class="dark"></div>
+                    <div class="light"></div>
+                </div>
+            </div>
+
+
+            <div class="capture-box">
+                <p>You</p>
+                <div class="captured" id="you">
+
+                </div>
+                <p>Opponent</p>
+                <div class="captured" id="opponent">
+
+                </div>
+            </div>
+        </div>
+        <div id="mainbox" class="main-box">
+
+            <div class="corner-file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="corner-file"></div>
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div class="rank"></div>
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div class="rank"></div>
+
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div class="rank"></div>
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div class="rank"></div>
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div class="rank"></div>
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div class="rank"></div>
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div class="rank"></div>
+
+
+            <div class="rank"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div onclick="clickfun(this)" class="square black"></div>
+            <div onclick="clickfun(this)" class="square white"></div>
+            <div class="rank"></div>
+
+            <div class="corner-file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="file"></div>
+            <div class="corner-file"></div>
+        </div>
+
+        <div class="chat-box">
+            <div id="chat-window" class="chat-window">
+                <div id="message">
+                </div>
+            </div>
+            <div class="textbox">
+                <input type="email" class="form-control textholder" id="chat" placeholder="type something..">
+                <button id="sendchat" type="button" class="btn btn-lg send-btn"><strong>Send</strong></button>
+            </div>
+        </div>
+
+    </div>
+    <div id="WelcomeScreen" class="start-container">
+        <div class="new-join">
+        <button id="newGame" class="btn btn-danger btn-lg">New Game</button>
+        <div id="displayGameCode"></div>
+        <h2>or</h2>
+        <input type="text" class="form-control" id="join-game" placeholder="Enter game code">
+        <button id="joinGame" class="btn btn-info btn-lg">Join Game</button>
+        </div>
+    </div>
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
