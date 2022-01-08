@@ -9,6 +9,17 @@
 <!-- ![IMG_4535](https://user-images.githubusercontent.com/78541121/148611171-cded0d60-55ec-4f89-a34e-6ee8903c3628.jpg)
 ![IMG_4536](https://user-images.githubusercontent.com/78541121/148611048-20352341-18bd-4dda-bcfb-c32ab2f03507.jpg) -->
 
+## Technologies Used
+### Front-end
+* HTML5
+* CSS3
+* Bootstrap
+## Back-end
+* Javascript
+* Node js
+* Express js
+* Socket.IO
+
 ## Intricate Features
 ### Chat Box
 
@@ -27,4 +38,4 @@
 ### Multiple Themes
 
 <img src="https://user-images.githubusercontent.com/78541121/148650975-36636c33-a2d3-4936-be61-15e41d210ef6.jpg" height="300" />
-![IMG_4536](https://user-images.githubusercontent.com/78541121/148650975-36636c33-a2d3-4936-be61-15e41d210ef6.jpg)
+<!-- ![IMG_4536](https://user-images.githubusercontent.com/78541121/148650975-36636c33-a2d3-4936-be61-15e41d210ef6.jpg) -->
