@@ -12,7 +12,7 @@
 ## Intricate Features
 ### Chat Box
 
-<div style="display:flex;justify-content:space-between;">
+<div style="width:100%;display:flex;justify-content:space-between;">
   <img src="https://user-images.githubusercontent.com/78541121/148651057-10a3d94a-a893-4d1a-9bdc-88c6e641227c.GIF" height="300" />
   <img src="https://user-images.githubusercontent.com/78541121/148650896-8d37471d-d49b-4942-9f43-b3875efb6594.GIF" height="300" />
 </div>
