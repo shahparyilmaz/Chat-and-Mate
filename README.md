@@ -10,9 +10,9 @@
 ![IMG_4536](https://user-images.githubusercontent.com/78541121/148611048-20352341-18bd-4dda-bcfb-c32ab2f03507.jpg) -->
 
 ## Intricate Features
-* Chat Box
+### Chat Box
 
-![chat](https://user-images.githubusercontent.com/78541121/148651057-10a3d94a-a893-4d1a-9bdc-88c6e641227c.GIF)
+![chat](https://user-images.githubusercontent.com/78541121/148651057-10a3d94a-a893-4d1a-9bdc-88c6e641227c.GIF | width=100)
 
 * Castling
 
