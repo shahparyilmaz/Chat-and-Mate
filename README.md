@@ -12,12 +12,12 @@
 ## Intricate Features
 ### Chat Box
 
-![chat](https://user-images.githubusercontent.com/78541121/148651057-10a3d94a-a893-4d1a-9bdc-88c6e641227c.GIF | width=100)
+<img src="https://user-images.githubusercontent.com/78541121/148651057-10a3d94a-a893-4d1a-9bdc-88c6e641227c.GIF" width="100" />
 
-* Castling
+### Castling
 
 ![castle](https://user-images.githubusercontent.com/78541121/148650896-8d37471d-d49b-4942-9f43-b3875efb6594.GIF)
 
-* Multiple Themes
+### Multiple Themes
 
 ![IMG_4536](https://user-images.githubusercontent.com/78541121/148650975-36636c33-a2d3-4936-be61-15e41d210ef6.jpg)
