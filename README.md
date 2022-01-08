@@ -11,10 +11,13 @@
 
 ## Intricate Features
 * Chat Box
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/78541121/148650945-be2c6a9d-5db7-4a03-b356-04d78f30353b.gif)
-</br>
+
+![chat](https://user-images.githubusercontent.com/78541121/148651057-10a3d94a-a893-4d1a-9bdc-88c6e641227c.GIF)
+
 * Castling
+
 ![castle](https://user-images.githubusercontent.com/78541121/148650896-8d37471d-d49b-4942-9f43-b3875efb6594.GIF)
-</br>
+
 * Multiple Themes
+
 ![IMG_4536](https://user-images.githubusercontent.com/78541121/148650975-36636c33-a2d3-4936-be61-15e41d210ef6.jpg)
