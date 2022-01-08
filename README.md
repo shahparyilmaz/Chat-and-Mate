@@ -20,8 +20,8 @@
 * Express js
 * Socket.IO
 
-## Intricate Features
-### Chat Box
+## It also offers
+### A Chat Box
 
 <!-- <div style="width:100%;display:flex;justify-content:space-between;">
   <img src="https://user-images.githubusercontent.com/78541121/148651057-10a3d94a-a893-4d1a-9bdc-88c6e641227c.GIF" height="300" />
